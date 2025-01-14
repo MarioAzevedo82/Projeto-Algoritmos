@@ -1,4 +1,5 @@
 # 1. Algoritmo para Verificar se um Número é Par ou Ímpar
+# Objetivo: O usuário insere um número, e o programa informa se ele é par ou ímpar.
 
 
 puts "Digite um número:"
