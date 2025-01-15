@@ -5,8 +5,10 @@ puts "---Tabuada---"
 puts "Digite um número: "
 num1 = gets.chomp.chomp.to_i
 
-loop do i = 0
+i = 0
+loop do 
     puts "#{num1} x #{i} = #{num1 * i}"
     i += 1
+    break if i > 10
 end
 
